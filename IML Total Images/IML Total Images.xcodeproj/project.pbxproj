@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A050221B0B5EE500C94990 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A050211B0B5EE500C94990 /* GenerateThumbnailForURL.m */; };
+		A6A050241B0B5EE500C94990 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A050231B0B5EE500C94990 /* GeneratePreviewForURL.m */; };
+		A6A050261B0B5EE500C94990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A050251B0B5EE500C94990 /* main.m */; };
+		A6A0502F1B0B5FB800C94990 /* ImageProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A0502D1B0B5FB800C94990 /* ImageProcessing.h */; };
+		A6A050301B0B5FB800C94990 /* ImageProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0502E1B0B5FB800C94990 /* ImageProcessing.m */; };
+		A6A050341B0B60F300C94990 /* Install.sh in Resources */ = {isa = PBXBuildFile; fileRef = A6A050321B0B60D300C94990 /* Install.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6A0501C1B0B5EE500C94990 /* IML Total Images.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IML Total Images.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A050201B0B5EE500C94990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A050211B0B5EE500C94990 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		A6A050231B0B5EE500C94990 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		A6A050251B0B5EE500C94990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A0502D1B0B5FB800C94990 /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageProcessing.h; path = Libraries/ImageProcessing.h; sourceTree = "<group>"; };
+		A6A0502E1B0B5FB800C94990 /* ImageProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageProcessing.m; path = Libraries/ImageProcessing.m; sourceTree = "<group>"; };
+		A6A050321B0B60D300C94990 /* Install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Install.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A050181B0B5EE500C94990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A050121B0B5EE500C94990 = {
+			isa = PBXGroup;
+			children = (
+				A6A0501E1B0B5EE500C94990 /* IML Total Images */,
+				A6A0501D1B0B5EE500C94990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A0501D1B0B5EE500C94990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0501C1B0B5EE500C94990 /* IML Total Images.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A0501E1B0B5EE500C94990 /* IML Total Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6A050311B0B60D300C94990 /* Script */,
+				A6A0502C1B0B5F8500C94990 /* Libraries */,
+				A6A050211B0B5EE500C94990 /* GenerateThumbnailForURL.m */,
+				A6A050231B0B5EE500C94990 /* GeneratePreviewForURL.m */,
+				A6A050251B0B5EE500C94990 /* main.m */,
+				A6A0501F1B0B5EE500C94990 /* Supporting Files */,
+			);
+			path = "IML Total Images";
+			sourceTree = "<group>";
+		};
+		A6A0501F1B0B5EE500C94990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A050201B0B5EE500C94990 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6A0502C1B0B5F8500C94990 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0502D1B0B5FB800C94990 /* ImageProcessing.h */,
+				A6A0502E1B0B5FB800C94990 /* ImageProcessing.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		A6A050311B0B60D300C94990 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				A6A050321B0B60D300C94990 /* Install.sh */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6A050191B0B5EE500C94990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A0502F1B0B5FB800C94990 /* ImageProcessing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6A0501B1B0B5EE500C94990 /* IMLTotalImagesQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A050291B0B5EE500C94990 /* Build configuration list for PBXNativeTarget "IMLTotalImagesQL" */;
+			buildPhases = (
+				A6A050171B0B5EE500C94990 /* Sources */,
+				A6A050181B0B5EE500C94990 /* Frameworks */,
+				A6A050191B0B5EE500C94990 /* Headers */,
+				A6A0501A1B0B5EE500C94990 /* Resources */,
+				A6A050351B0B60FA00C94990 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMLTotalImagesQL;
+			productName = "IML Total Images";
+			productReference = A6A0501C1B0B5EE500C94990 /* IML Total Images.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A050131B0B5EE500C94990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "© IML";
+				TargetAttributes = {
+					A6A0501B1B0B5EE500C94990 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A6A050161B0B5EE500C94990 /* Build configuration list for PBXProject "IML Total Images" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6A050121B0B5EE500C94990;
+			productRefGroup = A6A0501D1B0B5EE500C94990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A0501B1B0B5EE500C94990 /* IMLTotalImagesQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A0501A1B0B5EE500C94990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A050341B0B60F300C94990 /* Install.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6A050351B0B60FA00C94990 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh /Volumes/WORK/PROJECTS/OWNER/ltquicklooks/IML\\ Total\\ Images/IML\\ Total\\ Images/Script/Install.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A050171B0B5EE500C94990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A050301B0B5FB800C94990 /* ImageProcessing.m in Sources */,
+				A6A050221B0B5EE500C94990 /* GenerateThumbnailForURL.m in Sources */,
+				A6A050241B0B5EE500C94990 /* GeneratePreviewForURL.m in Sources */,
+				A6A050261B0B5EE500C94990 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6A050271B0B5EE500C94990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A6A050281B0B5EE500C94990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A6A0502A1B0B5EE500C94990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "IML Total Images/Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		A6A0502B1B0B5EE500C94990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "IML Total Images/Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A050161B0B5EE500C94990 /* Build configuration list for PBXProject "IML Total Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A050271B0B5EE500C94990 /* Debug */,
+				A6A050281B0B5EE500C94990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A050291B0B5EE500C94990 /* Build configuration list for PBXNativeTarget "IMLTotalImagesQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A0502A1B0B5EE500C94990 /* Debug */,
+				A6A0502B1B0B5EE500C94990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A050131B0B5EE500C94990 /* Project object */;
+}
